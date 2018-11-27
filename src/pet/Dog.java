@@ -1,7 +1,8 @@
 package pet;
 
 /**
- * ¹·Àà
+ * ç‹—ç±»
+ *è¿™æ˜¯ä¸€ä¸ªæµ‹è¯•ç±»
  * @author Administrator
  *
  */
@@ -30,12 +31,12 @@ public class Dog extends Pet{
 
 	@Override
 	public void print() {
-		System.out.println("êÇ³Æ£º" + super.getName() + ",½¡¿µ¶È£º" + super.getHealth() + ",Ç×ÃÜ¶È£º" + super.getLove() + ",Æ·ÖÖ£º" + this.strain);
+		System.out.println("æ˜µç§°ï¼š" + super.getName() + ",å¥åº·åº¦ï¼š" + super.getHealth() + ",äº²å¯†åº¦ï¼š" + super.getLove() + ",å“ç§ï¼š" + this.strain);
 	}
 
 	@Override
 	public String toString() {
-		return "êÇ³Æ£º" + super.getName() + ",½¡¿µ¶È£º" + super.getHealth() + ",Ç×ÃÜ¶È£º" + super.getLove() + ",Æ·ÖÖ£º" + this.strain;
+		return "æ˜µç§°ï¼š" + super.getName() + ",å¥åº·åº¦ï¼š" + super.getHealth() + ",äº²å¯†åº¦ï¼š" + super.getLove() + ",å“ç§ï¼š" + this.strain;
 	}
 
 	
